@@ -1,32 +1,15 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <!-- PON UN FAVICON!!! -->
-    <link rel="icon" type="image/svg+xml" href="" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- CAMBIA EL TITLE!!! -->
-    <title>Vite Template</title>
-  </head>
-  <body>
-    <header class="header">
-      <img class="logo" src="assets/images/Vector.png" alt="">
-
-    </header>
-    <main class="main">
-      <div class="home">
-        <div class="mask"></div>
-        
-        <svg class="svg" version="1.0" xmlns="http://www.w3.org/2000/svg"
- width="50vw" height="50vh" viewBox="0 0 1280.000000 1268.000000"
->
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
+ "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+ width="1280.000000pt" height="1268.000000pt" viewBox="0 0 1280.000000 1268.000000"
+ preserveAspectRatio="xMidYMid meet">
 <metadata>
 Created by potrace 1.15, written by Peter Selinger 2001-2017
 </metadata>
 <g transform="translate(0.000000,1268.000000) scale(0.100000,-0.100000)"
- >
-<path  d="M6036 12670 c-462 -29 -946 -94 -1261 -170 -226 -54 -534 -159 -575
+fill="#000000" stroke="none">
+<path d="M6036 12670 c-462 -29 -946 -94 -1261 -170 -226 -54 -534 -159 -575
 -195 -8 -7 -53 -26 -100 -41 -143 -46 -273 -105 -569 -258 -551 -285 -896
 -515 -1331 -885 -180 -154 -516 -491 -674 -676 -851 -999 -1361 -2187 -1491
 -3472 -138 -1362 176 -2749 881 -3895 30 -48 68 -117 85 -153 34 -71 114 -188
@@ -457,28 +440,6 @@ c39 -37 95 -80 124 -96 29 -17 52 -32 50 -33 -5 -5 -285 44 -407 71 -239 54
 -614 174 -646 207 -7 7 -5 8 6 4 8 -3 62 -14 120 -26z m4059 -20 c-22 -12
 -374 -115 -515 -150 -189 -47 -415 -88 -606 -110 -232 -27 -218 -29 -172 23
 32 37 106 151 115 178 2 5 64 1 138 -8 177 -22 512 -22 671 -1 115 16 276 48
-334 66 38 12 54 13 35 2z" class="path"/>
+334 66 38 12 54 13 35 2z"/>
 </g>
 </svg>
-<div>
-  <h1 class="title">HI, IM KA   <span class="letter--big"> R </span>   IM. FRONT END WEB DEVELOPER</h1>
-</div>
-
-</div>
-       <!--  <div class="grid-container">
-          <div class="grid-container__item grid-container__item--right"></div>
-          <div class="grid-container__item grid-container__item--left"></div>
-          <div class="grid-container__item grid-container__item--title">
-            <h1 class="title">HI, IM KARIM</h1>
-          </div>
-          <div class="grid-container__item grid-container__item--description">
-            <h1 class="title">FRONT END WEB DEVELOPER</h1>
-          </div>
-        </div> -->
-      </div>
-    </main>
-    <footer class="footer"></footer>
-    <div class="noise"></div>
-    <script type="module" src="./js/index.js"></script>
-  </body>
-</html>

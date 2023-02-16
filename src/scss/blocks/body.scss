@@ -1,4 +1,9 @@
-html {
+@font-face {
+    font-family: bold;
+    src: url(../fonts/Wide-Bold.ttf);
 }
 body {
+    background-color: var(--bg-color);
+    font-family: bold;
+    color: var(--primary-color);
 }

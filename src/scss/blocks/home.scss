@@ -1,0 +1,59 @@
+@use '../mixins/flexbox.scss' as*;
+@use '../functions/image-for-responsive.scss' as*;
+
+
+@keyframes draw {
+   to{
+    rotate: -360deg
+   }
+  }
+.home{
+@include flexbox(flex,column,nowrap,start,center);
+height: 100vh;
+}
+
+.grid-container{
+    position: relative;
+    width: 1440px;
+    height: 100%;
+    background-image: url('assets/images/CUBE-1.svg');
+    &__item{
+        &--right{
+        position: absolute;
+        right: 0;
+        width: 120px;
+        height: 120px;
+        background-color: var(--bg-color);
+        background-image: url('assets/images/CUBE-1.svg');
+        background-repeat: no-repeat;
+        background-position:top right;
+    }
+    &--left{
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 120px;
+        height: 120px;
+        background-color: var(--bg-color);
+        background-image: url('assets/images/CUBE-1.svg');
+        background-repeat: no-repeat;
+        background-position:top right;
+    }
+    &--title{
+        position: absolute;
+        left: 540px;
+        top: 120px;
+        background-color: var(--bg-color);
+        width: 480px;
+        height: 120px;
+    }
+    &--description{
+         position: absolute;
+        left: 720px;
+        top: 300px;
+        background-color: var(--bg-color);
+        width: 480px;
+        height: 180px;
+    }
+}
+}

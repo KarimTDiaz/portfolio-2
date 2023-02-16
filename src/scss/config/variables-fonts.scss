@@ -1,6 +1,11 @@
+@font-face {
+  font-family:wide-bold;
+  src: url(assets/fonts/Wide-Bold.ttf);
+}
+
 :root {
-    /* Variables CSS */
+    --primary-font: wide-bold;
   }
   
-  /* Variables SASS */
+
   
